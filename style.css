@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: #2D25A0;
+    width: 100%;
+}
+/* a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1160px;
+    height: 44px;
+    margin-left: 156px;
+    margin-top: 42px;
+    color: white;
+    text-decoration: none;
+} */
+.top-title h1{
+    font-size: 64px;
+    color: white;
+    width: 485px;
+    height: 230px;
+    font-weight: 700;
+    margin-left: 156px;
+    margin-top: 207px;
+}
+.top-title a{
+    color: white;
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    margin-left: 156px;
+    margin-top: 27px;
+    text-decoration: none;
+}
+.top-title a:hover{
+    padding: 15px 28px;
+    transition: 1s;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+    height: 24px;
+    width: 24px;
+}
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-image{
+    width: 556px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;
+    margin-bottom: 86px;
+    margin-left: 102px;
+}
+.top-image img{
+    width: 100%;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15 );
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+.player-name h2{
+    font-size: 28px;
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+.player-details p{
+    font-size: 16px;
+    color: #6C6C6C;
+    height: 104px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    width: 330px;
+    margin-left:210px;
+    margin-top: 70px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bottom-box{
+    width: 466px;
+    height: 309px;
+    margin-left: 182px;
+    margin-top: 224px;
+}
+.bottom-title h2{
+    font-size: 48px;
+}
+.bottom-title p{
+    font-size: 16px;
+    color:  #6C6C6C;
+}
+.bottom-details a{
+    color: white;
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    margin-top: 27px;
+    text-decoration: none;
+}
+.bottom-details a:hover{
+    padding: 12px 28px;
+    transition: 1s;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+.bottom-image{
+    width: 567px;
+    height: 427px;
+    margin-right: 156px;
+    margin-top: 165px;
+    margin-left: 69px;
+}
+.bottom-image img{
+    width: 100%;
+}
+#bottom-video{
+    background-image: url(images/wp3972164-computer-soccer-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-top: 50px;
+    height: 600px;
+}
+#bottom-video h2{
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+}
+iframe{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 26%;
+    border-radius: 5px;
+    width: 50%;
+    height: 45%;
+}
+
+.gallery h1{
+    color: #E02C6D;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.image img{
+    margin-left: 15%;
+    height: 70%;
+    padding: 10px;
+    width: 70%;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15 );
+}
+.image img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+footer{
+    margin-left: 475px;
+    margin-right: 481px;
+    margin-bottom: 63px;
+    margin-top: 158px;
+}
+#logo img{
+    width: 483px;
+    height: 110px;
+}
+#links a{
+    height: 32px;
+    width: 32px;
+    margin-left: 14px;
+    color:  #969BAB;
+}
+#links{
+    width: 170px;
+    height: 32px;
+    margin: 20px 156px;
+   
+}
+footer p{
+    margin:0px 123px;
+}
+@media only screen and (max-width: 688px) {
+
+
+    header{
+        
+    }
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+        margin-left: 50px;
+    }
+    .top-banner, .bottom{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+    }
+    .top-image{
+        margin: 0px;
+        margin-top: 80px;
+        width: 80%;
+    }
+    .top-title h1{
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    .top-title a{
+        margin: auto;
+    }
+    .bottom-box{
+        margin: 0px;
+    }
+    .bottom-details p{
+        width: 100%;
+    }
+    .bottom-image{
+        margin: 0px;
+        width: 100%;
+    }
+    footer{
+        margin: 0px;
+        width: 100%;
+    }
+    #logo img{
+        width: 100%;
+    }
+    footer p{
+        width: 240px;
+    }
+    #bottom-video h2{
+        margin-top: 10%;
+    }
+    .image{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+        margin-top: 0px;
+    }
+}
