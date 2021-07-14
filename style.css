@@ -228,7 +228,7 @@ footer p{
     .players{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: row;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .top-banner, .bottom{
         grid-template-columns: repeat(1, 1fr);
