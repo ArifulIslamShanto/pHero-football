@@ -20,7 +20,7 @@ header{
     text-decoration: none;
 } */
 .top-title h1{
-    font-size: 64px;
+    font-size: 62px;
     color: white;
     width: 468px;
     height: 230px;
@@ -249,7 +249,7 @@ footer p{
     .top-title h1{
         margin: 5px;
         margin-bottom: 50px;
-        width: 360px;
+        width: 370px;
     }
     .top-title a{
         margin: auto;
