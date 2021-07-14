@@ -22,7 +22,7 @@ header{
 .top-title h1{
     font-size: 64px;
     color: white;
-    width: 485px;
+    width: 411px;
     height: 230px;
     font-weight: 700;
     margin-left: 156px;
@@ -226,13 +226,16 @@ footer p{
 }
 @media only screen and (max-width: 688px) {
 
-    main{
-        width: 70%;
+    body{
+            width: 100%;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: row;
         margin-left: 40px;
+    }
+    .top-banner{
+        width: 411px;
     }
     .top-banner, .bottom{
         grid-template-columns: repeat(1, 1fr);
@@ -246,6 +249,7 @@ footer p{
     .top-title h1{
         margin: 5px;
         margin-bottom: 50px;
+        width: 411px;
     }
     .top-title a{
         margin: auto;
@@ -283,6 +287,9 @@ footer p{
 
 @media only screen and (min-width: 689px) and (max-width: 1024px) {
 
+    section,header,footer{
+        width: 70%;
+    }
     .players{
         grid-template-columns: repeat(2, 1fr);
         flex-direction: row;
@@ -339,4 +346,3 @@ footer p{
     }
 }
     
-}
