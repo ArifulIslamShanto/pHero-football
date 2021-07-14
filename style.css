@@ -225,15 +225,10 @@ footer p{
 }
 @media only screen and (max-width: 688px) {
 
-
-    header{
-        
-    }
-
     .players{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: row;
-        margin-left: 50px;
+        margin-left: 80px;
     }
     .top-banner, .bottom{
         grid-template-columns: repeat(1, 1fr);
@@ -279,4 +274,64 @@ footer p{
         flex-direction: row;
         margin-top: 0px;
     }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        margin-left: 120px;
+    }
+    .bottom{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+    }
+    .top-banner{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+
+    }
+    .top-image{
+        margin: 0px;
+        margin-top: 80px;
+        width: 80%;
+    }
+    .top-title h1{
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    .top-title a{
+        margin: auto;
+    }
+    .bottom-box{
+        margin-left: 60px;
+    }
+    .bottom-details p{
+        width: 100%;
+    }
+    .bottom-image{
+        margin: 0px;
+        width: 100%;
+    }
+    footer{
+        margin: 0px;
+        width: 100%;
+    }
+    #logo img{
+        width: 100%;
+    }
+    footer p{
+        width: 240px;
+    }
+    #bottom-video h2{
+        margin-top: 40%;
+    }
+    .image{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        margin-top: 0px;
+    }
+}
+    
 }
