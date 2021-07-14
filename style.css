@@ -232,7 +232,7 @@ footer p{
     .players{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: row;
-        margin-left: 37px;
+        margin-left: 35px;
     }
     .top-banner{
         width: 100%;
@@ -249,7 +249,7 @@ footer p{
     .top-title h1{
         margin: 5px;
         margin-bottom: 50px;
-        width: 350px;
+        width: 360px;
     }
     .top-title a{
         margin: auto;
