@@ -109,17 +109,18 @@ header{
     grid-template-columns: repeat(2, 1fr);
 }
 .bottom-box{
-    width: 466px;
-    height: 309px;
+    width: 70%;
+    height: 50%;
     margin-left: 182px;
     margin-top: 224px;
 }
 .bottom-title h2{
     font-size: 48px;
 }
-.bottom-title p{
+.bottom-details p{
     font-size: 16px;
     color:  #6C6C6C;
+    width: 70%;
 }
 .bottom-details a{
     color: white;
@@ -138,8 +139,8 @@ header{
 
 }
 .bottom-image{
-    width: 567px;
-    height: 427px;
+    width: 70%;
+    height: 70%;
     margin-right: 156px;
     margin-top: 165px;
     margin-left: 69px;
@@ -225,6 +226,9 @@ footer p{
 }
 @media only screen and (max-width: 688px) {
 
+    main{
+        width: 70%;
+    }
     .players{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: row;
@@ -248,13 +252,14 @@ footer p{
     }
     .bottom-box{
         margin: 0px;
+        width: 70%;
     }
     .bottom-details p{
-        width: 100%;
+        width: 80%;
     }
     .bottom-image{
         margin: 0px;
-        width: 100%;
+        width: 80%;
     }
     footer{
         margin: 0px;
