@@ -22,7 +22,7 @@ header{
 .top-title h1{
     font-size: 64px;
     color: white;
-    width: 400px;
+    width: 468px;
     height: 230px;
     font-weight: 700;
     margin-left: 156px;
@@ -227,15 +227,15 @@ footer p{
 @media only screen and (max-width: 688px) {
 
     body{
-            width: 100%;
+         width: 100%;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: row;
-        margin-left: 40px;
+        margin-left: 37px;
     }
     .top-banner{
-        width: 400px;
+        width: 100%;
     }
     .top-banner, .bottom{
         grid-template-columns: repeat(1, 1fr);
@@ -249,7 +249,7 @@ footer p{
     .top-title h1{
         margin: 5px;
         margin-bottom: 50px;
-        width: 360px;
+        width: 340px;
     }
     .top-title a{
         margin: auto;
