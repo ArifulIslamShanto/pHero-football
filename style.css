@@ -249,13 +249,13 @@ footer p{
     .top-title h1{
         margin: 5px;
         margin-bottom: 50px;
-        width: 340px;
+        width: 350px;
     }
     .top-title a{
         margin: auto;
     }
     .bottom-box{
-        margin: 0px;
+        margin: 2px;
         width: 70%;
     }
     .bottom-details p{
